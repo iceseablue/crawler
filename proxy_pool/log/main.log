@@ -1,0 +1,3 @@
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2017-04-19 15:35:08,552 ProxyValidSchedule.py[line:41] INFO proxy: 180.210.205.104:3128 validation fail
+2017-04-19 15:35:09,140 ProxyValidSchedule.py[line:38] DEBUG proxy: 218.201.98.196:3128 validation pass
