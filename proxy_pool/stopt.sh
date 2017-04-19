@@ -2,7 +2,8 @@
 
 pid=`/bin/pidof  ./ssdb-server ssdb.conf`
 echo "pid:", $pid
-if [ ! -n $1 ]then
+if [ ! -n $1 ]
+then
  echo -e "Please input userpassword\r"
 else
  passwd=$1"\r"

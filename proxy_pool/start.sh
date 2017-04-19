@@ -4,7 +4,8 @@ cur_path=`pwd`
 echo $cur_path
 cd /usr/local/ssdb/
 echo "start running ssdb....."
-if [ ! -n $1 ]then
+if [ ! -n $1 ]
+then
  echo -e "Please input userpassword\r"
 else 
  passwd=$1"\r"
